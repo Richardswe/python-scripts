@@ -1,4 +1,4 @@
-#   Rickard Andersson rickard.johan.a@protonmail.com
+#  Author: Rickard Andersson 
 import sys
 import re
 
