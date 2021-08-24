@@ -1,4 +1,8 @@
-#  Author: Rickard Andersson 
+# Author: Rickard Andersson 
+# 
+# Use the script to analyze log-files
+# In the terminal with the following order; python3 loganalyzer.py "filename" "action"
+
 import sys
 import re
 
