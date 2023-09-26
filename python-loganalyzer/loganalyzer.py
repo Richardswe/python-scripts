@@ -26,14 +26,13 @@ else:
             sub_str = "notice".lower()
             if line.lower().find(sub_str) != -1:
                 print(line.rstrip())
-    
     elif arg2_action == "error":
         for line in file:
             sub_str = "error".lower()
             if line.lower().find(sub_str) != -1:
-                print(line.rstrip())
+                print(line.rstrip()) 
     
     elif arg2_action == "statistics":
         notices = file.count("[notice]")
         errors = file.count("[error]")
-    print("Error: " + str(errors) + "\nNotice: " + str(notices))
+# print("Error: " + str(errors) + "\nNotice: " + str(notices))
