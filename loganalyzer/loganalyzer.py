@@ -1,4 +1,4 @@
-# Rickard Andersson rickard.johan.a@protonmail.com
+# Author: Rickard Andersson 
 # syntax in cli: python3 loganalyzer.py test.log statistics/error/notice
 import sys
 import re
